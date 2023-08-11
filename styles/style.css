@@ -26,6 +26,10 @@ body{
     margin: 0 auto;
 }
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 /*  ============== Top Banner Style ==============*/
@@ -41,7 +45,6 @@ body{
     display: flex;
 
 }
-
 
 .banner-left-content{
     margin-left: 278px;
@@ -68,8 +71,6 @@ body{
     border-bottom-right-radius: 45px;
     color: #FFFFFF;
     font-family:  Li Ador Noirrit Regular, sans-serif ;
-
-
 }
 
 .first-title > p {
@@ -80,7 +81,6 @@ body{
     text-align: left;
     
 }
-
 .main-heading{
     width: 663px;
     height: 164px;
@@ -144,7 +144,6 @@ body{
     letter-spacing: 0em;
     color: #012A4A;
 }
-
 .banner-image{
     width: 822px;
     height: 707px;
@@ -153,7 +152,6 @@ body{
     padding: 2.44px 0px 2.44px 0px;
 
 }
-
 .btn-contact{
     width: 476px;
     height: 94.99px;
@@ -187,5 +185,7 @@ body{
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0em;
-
+    border: none;
 }
+
+/*  ============== Product Info Section Style ==============*/
