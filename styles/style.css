@@ -1,8 +1,14 @@
 
 /*  ============== Custom Fonts ==============*/
 @font-face {
-    font-family: 'Li Sheikh Hasina 2';
-    src: url(../assets/fonts/Li-Sheikh-Hasina-ANSI-V1.ttf) format("truetype");
+    font-family: 'Li Ador Noirrit Regular';
+    src: url(../assets/fonts/Li-Ador-Noirrit-Regular.ttf) format("truetype");
+}
+/*  ============== Custom Fonts ==============*/
+@font-face {
+    font-family: 'Li Niladri Rongtuli Unicode';
+    src: url(../assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf) format("truetype");
+    font-weight: bold;
 }
 
 /* =============== Common Styles =============== */
@@ -37,11 +43,14 @@ body{
 }
 
 
+.banner-left-content{
+    margin-left: 278px;
+}
+
 .brand-logo{
     width: 237.07px;
     height: 84.68px;
     margin-top: 54.97px;
-    margin-left: 278px;
 }
 
 .brand-logo > img{
@@ -49,15 +58,16 @@ body{
 }
 
 .first-title{
-    margin-top: 80px;
-    margin-left: 278px;
+    margin-top: 60px;
+    Width: 387px;
+    Height: 65px;
     background-color: #012A4A;
     text-align: center;
     padding:20px;
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     color: #FFFFFF;
-    font-family:  "Li Sheikh Hasina 2" ;
+    font-family:  Li Ador Noirrit Regular ;
 
 
 }
@@ -68,6 +78,19 @@ body{
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
-    font-family:  "Li Sheikh Hasina 2" ;
+    
 }
+
+.main-heading{
+    width: 663px;
+    height: 164px;
+    margin-top: 25px;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #003B60;
+}
+
