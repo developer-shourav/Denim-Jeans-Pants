@@ -67,7 +67,7 @@ body{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     color: #FFFFFF;
-    font-family:  Li Ador Noirrit Regular ;
+    font-family:  Li Ador Noirrit Regular, sans-serif ;
 
 
 }
@@ -85,12 +85,63 @@ body{
     width: 663px;
     height: 164px;
     margin-top: 25px;
-    font-family: Li Niladri Rongtuli Unicode;
+    font-family: Li Niladri Rongtuli Unicode , sans-serif;
     font-size: 60px;
     font-weight: 400;
     line-height: 82px;
     letter-spacing: 0em;
     text-align: left;
     color: #003B60;
+}
+
+.banner-pricing{
+    width: 283px;
+    height: 106px;
+    margin-top: 26px;
+    font-family: Li Ador Noirrit Regular, sans-serif;
+    color: #012A4A;
+    font-size: 24px;
+    line-height: 32px;
+}
+.pricing{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.previous-price{
+    color: #608AAB;
+    text-decoration: line-through;
+}
+
+.offer-price{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.btn-order{
+    width: 262px;
+    height: 76.68px;
+    margin-top: 44px;
+    border: none;
+    background-color: #F0E615;
+    color: #092E67;
+    font-family: Li Niladri Rongtuli Unicode, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.shipping-info{
+    width: 576px;
+    height: 80px;
+    margin-top: 36px;
+    font-family: Li Ador Noirrit Regular, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #012A4A;
 }
 
