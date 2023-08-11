@@ -1,5 +1,11 @@
 
-/* -------------Common Styles------------ */
+/*  ============== Custom Fonts ==============*/
+@font-face {
+    font-family: 'Li Sheikh Hasina 2';
+    src: url(../assets/fonts/Li-Sheikh-Hasina-ANSI-V1.ttf) format("truetype");
+}
+
+/* =============== Common Styles =============== */
 
 *{  
     margin: 0;
@@ -12,4 +18,56 @@
 body{
     max-width: 1920px;
     margin: 0 auto;
-};
+}
+
+
+
+/*  ============== Top Banner Style ==============*/
+
+.banner-container{
+    background-image: url('./../assets/images/banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    width: 1920px;
+    height: 940px;
+    display: flex;
+
+}
+
+
+.brand-logo{
+    width: 237.07px;
+    height: 84.68px;
+    margin-top: 54.97px;
+    margin-left: 278px;
+}
+
+.brand-logo > img{
+    width: 100%;
+}
+
+.first-title{
+    margin-top: 80px;
+    margin-left: 278px;
+    background-color: #012A4A;
+    text-align: center;
+    padding:20px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    color: #FFFFFF;
+    font-family:  "Li Sheikh Hasina 2" ;
+
+
+}
+
+.first-title > p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    font-family:  "Li Sheikh Hasina 2" ;
+}
