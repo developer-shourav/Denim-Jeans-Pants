@@ -145,3 +145,47 @@ body{
     color: #012A4A;
 }
 
+.banner-image{
+    width: 822px;
+    height: 707px;
+    margin-top: 50px;
+    margin-left: 41px;
+    padding: 2.44px 0px 2.44px 0px;
+
+}
+
+.btn-contact{
+    width: 476px;
+    height: 94.99px;
+    margin-top: -25px;
+    margin-left: 260px;
+    border: none;
+    background-color: #F0E615;
+    font-family: Malgun Gothic;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    color: #012A4A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.button-call-info{
+    width: 399px;
+    height: 75px;
+    margin-left: 200px;
+    background: #012A4A;
+    color: #ffffff;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-family: Li Ador Noirrit Regular, sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+
+}
